@@ -152,7 +152,7 @@ export default function DashboardClient() {
   return (
     <main className="shell">
       <aside className="sidebar">
-        <div className="brand"><span className="brand-mark">衡</span><span>衡策</span></div>
+        <div className="brand"><span className="brand-mark">A+H</span><span>股公司研究系统</span></div>
         <nav aria-label="主导航">
           <a className="nav-item active" href="#overview"><span>◫</span> 公司研究总览</a>
           <a className="nav-item" href="#research"><span>⌁</span> 企业质量与增长</a>

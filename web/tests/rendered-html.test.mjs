@@ -14,7 +14,7 @@ test("server-renders the A/H research dashboard", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   const html = await response.text();
-  assert.match(html, /衡策/);
+  assert.match(html, /A\+H 股公司研究系统/);
   assert.match(html, /公司研究总览/);
   assert.match(html, /先理解公司，再选择指标/);
   assert.match(html, /估值与安全边际/);

@@ -7,13 +7,13 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = requestHeaders.get("x-forwarded-host") || requestHeaders.get("host") || "localhost:3000";
   const protocol = requestHeaders.get("x-forwarded-proto") || (host.startsWith("localhost") ? "http" : "https");
   const origin = `${protocol}://${host}`;
-  const title = "衡策｜A+H 股智能投研";
+  const title = "A+H 股公司研究系统";
   const description = "基本面质量、合理估值与中期趋势驱动的个人投研工作台。";
   const image = `${origin}/og.png`;
   return {
     title,
     description,
-    openGraph: { title, description, images: [{ url: image, width: 1731, height: 909, alt: "衡策 A+H 股智能投研工作台" }] },
+    openGraph: { title, description, images: [{ url: image, width: 1731, height: 909, alt: "A+H 股公司研究系统" }] },
     twitter: { card: "summary_large_image", title, description, images: [image] },
   };
 }

@@ -9,7 +9,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .shell { min-height: 100vh; display: grid; grid-template-columns: 224px minmax(0, 1fr); }
 .sidebar { position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; padding: 30px 18px 22px; color: #e7eee9; background: var(--green); }
 .brand { display: flex; align-items: center; gap: 11px; padding: 0 10px 34px; font-size: 20px; font-weight: 750; letter-spacing: .1em; }
-.brand-mark { width: 34px; height: 34px; display: grid; place-items: center; color: var(--green); background: var(--lime); border-radius: 9px; font-family: serif; letter-spacing: 0; }
+.brand-mark { width: 42px; height: 34px; display: grid; place-items: center; color: var(--green); background: var(--lime); border-radius: 9px; font-size: 10px; letter-spacing: 0; }
 .sidebar nav { display: grid; gap: 6px; }
 .nav-item { display: flex; align-items: center; gap: 12px; padding: 12px 13px; color: #b9c9c1; text-decoration: none; border-radius: 9px; font-size: 14px; transition: .18s ease; }
 .nav-item span { width: 18px; font-size: 18px; text-align: center; }
