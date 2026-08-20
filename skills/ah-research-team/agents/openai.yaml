@@ -1,0 +1,7 @@
+interface:
+  display_name: "A/H 股研究员团队"
+  short_description: "按公司特点研究商业模式、增长势头、市场预期计价与合理估值"
+  brand_color: "#0F4C5C"
+  default_prompt: "使用 $ah-research-team 全面研究一家 A 股或港股公司，识别主要矛盾、增长势头、股价计价程度和安全边际。"
+policy:
+  allow_implicit_invocation: true

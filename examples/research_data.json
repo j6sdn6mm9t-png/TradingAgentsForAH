@@ -1,0 +1,61 @@
+{
+  "schema_version": "2",
+  "securities": {
+    "600519.SH": {
+      "as_of": "2026-08-18",
+      "snapshot": {
+        "name": "贵州茅台",
+        "industry": "白酒",
+        "close": 1488.0,
+        "return_20d": 0.052,
+        "return_60d": 0.084,
+        "ma20_gap": 0.031,
+        "volume_ratio": 1.12,
+        "pe_ttm": 24.5,
+        "pb": 8.2,
+        "roe": 0.31,
+        "revenue_growth": 0.12,
+        "profit_growth": 0.14,
+        "debt_ratio": 0.18,
+        "capital_flow_score": 0.25,
+        "news_sentiment": 0.20,
+        "is_st": false,
+        "suspended": false
+      },
+      "valuation_context": {
+        "methods": ["正常化 PE", "DCF", "自身历史区间"],
+        "fair_value_low": 1300.0,
+        "fair_value_base": 1650.0,
+        "fair_value_high": 1950.0,
+        "assumptions": ["仅用于演示数据契约，不代表真实估值"],
+        "evidence_ids": ["example-valuation"]
+      },
+      "evidence": [
+        {
+          "evidence_id": "example-quote",
+          "source": "example-only",
+          "title": "示例行情快照",
+          "published_at": "2026-08-18",
+          "observed_at": "2026-08-18",
+          "content": "仅用于演示 JSON 数据契约，不代表真实行情。"
+        },
+        {
+          "evidence_id": "example-financial",
+          "source": "example-only",
+          "title": "示例财务快照",
+          "published_at": "2026-08-18",
+          "observed_at": "2026-08-18",
+          "content": "仅用于演示 point-in-time 数据接入。"
+        },
+        {
+          "evidence_id": "example-valuation",
+          "source": "example-only",
+          "title": "示例估值情景",
+          "published_at": "2026-08-18",
+          "observed_at": "2026-08-18",
+          "content": "仅用于演示动态安全边际和价格区间数据契约。"
+        }
+      ]
+    }
+  }
+}
